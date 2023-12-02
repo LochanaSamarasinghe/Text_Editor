@@ -48,3 +48,8 @@ window.addEventListener("load", () => {
 
 
 
+
+const editable = document.getElementById("editable");
+
+
+
