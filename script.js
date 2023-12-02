@@ -1,8 +1,5 @@
 
 
-
-
-
 function f1() {
     document.execCommand("bold", false, null);
 }
@@ -37,6 +34,17 @@ function f6() {
 function f7() {
     document.execCommand("justifyFull", false, null);
 }
+function f9() {
+    document.execCommand("undo", false, null);
+}
+
+function f10() {
+    document.execCommand("redo", false, null);
+}
+
+window.addEventListener("load", () => {
+    editable.innerHTML = "";
+});
 
 
 
